@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+body.dark-mode {
+    background-color: #161616;
+}
+
+.banner {
+    background-image: url('../img/pigeon.png');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+
+.profile-img-container {
+    margin-top: -75px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #faf8f8;
+}
+
+body.dark-mode .name-profile {
+    color: #b4b4b4;
+}
+
+body.dark-mode .profile-img {
+    border: 5px solid #161616;
+}
+
+.social-icons i {
+    color: #343a40;
+    transition: color 0.2s;
+    font-size: 3rem;
+}
+
+.texto-final {
+    color: #35aa3f;
+    font-size: 0.8rem;
+}
+
+body.dark-mode .social-icons i {
+    color: #b4b4b4;
+}
+
+.social-icons i:hover {
+    color: #35aa3f;
+}
+
+body.dark-mode .social-icons i:hover {
+    color: #35aa3f;
+}
+
+/* Moon Button */
+.moon-btn.btn {
+    background-color: #ebebeb;
+    color: #2c2c2c;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+body.dark-mode hr {
+    color: #929292;
+}
+
+.moon-btn.btn:hover {
+    transform: scale(1.02);
+    background-color: #cccccc;
+}
+
+.moon-btn.btn:active {
+    transform: scale(0.90);
+    background-color: #d8d8d8;
+}
+
+.moon-btn.is-pressed {
+    background-color: #acacac !important;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
+
+body.dark-mode .moon-btn.btn {
+    background-color: #242424;
+    color: #b4b4b4;
+}
+
+body.dark-mode .moon-btn.btn:hover {
+    transform: scale(1.02);
+    background-color: #1b1b1b;
+}
+
+body.dark-mode .moon-btn.btn:active {
+    transform: scale(0.90);
+    background-color: #1b1b1b;
+}
+
+body.dark-mode .moon-btn.is-pressed {
+    background-color: #1b1b1b !important;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
